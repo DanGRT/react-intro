@@ -1,11 +1,14 @@
 import React from 'react';
+import ImageSearchAndResults from "./ImageSearchAndResults.js"
+
 
 class App extends React.Component{
+
   render(){
     return (
       <div>
-        <h1 className="main-heading">Hello, world!</h1>
-        <p>Welcome to our first React component</p>
+        <h1 className="main-heading">React photo gallery</h1>
+        <ImageSearchAndResults />
       </div>
     );
   }
