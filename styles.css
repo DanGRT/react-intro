@@ -1,0 +1,23 @@
+.border{
+  border: none;
+}
+
+img {
+  width: 300px;
+}
+
+.img--neutral {
+  border: 10px solid grey;
+}
+
+.img--red {
+  border: 10px solid red;
+}
+
+.border--incorrect-input{
+  border: 3px solid red
+}
+
+.border--correct-input{
+  border: 3px solid green
+}

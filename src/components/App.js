@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageSearchAndResults from "./ImageSearchAndResults.js"
+import RegistrationForm from "./RegistrationForm.js"
 
 
 class App extends React.Component{
@@ -8,7 +8,7 @@ class App extends React.Component{
     return (
       <div>
         <h1 className="main-heading">React photo gallery</h1>
-        <ImageSearchAndResults />
+        <RegistrationForm />
       </div>
     );
   }
